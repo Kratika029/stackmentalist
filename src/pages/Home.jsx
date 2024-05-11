@@ -34,12 +34,7 @@ function Home() {
                         <br />A company with a vision to innovate, build and
                         deliver amazing software solutions.
                       </p>
-                      <a
-                        class="btn btn-primary aos-init aos-animate"
-                        href="/contact/"
-                      >
-                        Get Started
-                      </a>
+                      
                     </div>
                   </div>
                 </div>
