@@ -518,7 +518,7 @@ function Home() {
 <div class="col-lg-66 col-md-66">
         <div class="single-features aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500" data-aos-once="true">
         <div class="icon">
-                    <svg
+        <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
@@ -535,17 +535,16 @@ function Home() {
                   </div>
                   <h3>
                     <a href="/features/feature-details/">
-                      Incredible Infrastructure
+                    Innovation-driven Solutions
                     </a>
                   </h3>
                   <p>
-                    Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
-                    incididunt ut labore dolore magna aliqua.
+                  StackMentalist is committed to staying at the forefront of technological innovation. We continually explore emerging technologies and methodologies to ensure that our clients receive solutions that are not only current but also future-proof.
                   </p>
         </div>
         <div class="single-features aos-init aos-animate" data-aos="fade-up" data-aos-delay="300" data-aos-duration="500" data-aos-once="true">
-        <div class="icon">
-                    <svg
+        <div class="icon bg-c679e3">
+        <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
@@ -556,23 +555,24 @@ function Home() {
                       stroke-linecap="round"
                       stroke-linejoin="round"
                     >
-                      <circle cx="12" cy="12" r="3"></circle>
-                      <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                      <rect x="3" y="3" width="7" height="7"></rect>
+                      <rect x="14" y="3" width="7" height="7"></rect>
+                      <rect x="14" y="14" width="7" height="7"></rect>
+                      <rect x="3" y="14" width="7" height="7"></rect>
                     </svg>
                   </div>
                   <h3>
                     <a href="/features/feature-details/">
-                      Incredible Infrastructure
+                    Customer-Centric Approach
                     </a>
                   </h3>
                   <p>
-                    Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
-                    incididunt ut labore dolore magna aliqua.
+                  Our approach revolves around understanding the unique needs and challenges of each client. By prioritizing customer satisfaction and actively listening to feedback, we tailor our solutions to exceed expectations and deliver tangible results.
                   </p>
         </div>
         <div class="single-features aos-init aos-animate" data-aos="fade-up" data-aos-delay="500" data-aos-duration="500" data-aos-once="true">
-        <div class="icon">
-                    <svg
+        <div class="icon bg-eb6b3d">
+        <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
@@ -583,18 +583,18 @@ function Home() {
                       stroke-linecap="round"
                       stroke-linejoin="round"
                     >
-                      <circle cx="12" cy="12" r="3"></circle>
-                      <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                      <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                      <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                      <line x1="12" y1="22.08" x2="12" y2="12"></line>
                     </svg>
                   </div>
                   <h3>
                     <a href="/features/feature-details/">
-                      Incredible Infrastructure
+                    Expert Team
                     </a>
                   </h3>
                   <p>
-                    Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
-                    incididunt ut labore dolore magna aliqua.
+                  At StackMentalist, we pride ourselves on our team of experts who bring diverse skills and experiences to the table. From seasoned developers to creative designers and strategic consultants, we have the talent pool to tackle projects of any scale or complexity.
                   </p>
         </div>
 
@@ -603,7 +603,7 @@ function Home() {
         <div class="col-lg-66 col-md-66">
         <div class="single-features aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" data-aos-once="true">
         <div class="icon">
-                    <svg
+        <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
@@ -619,16 +619,15 @@ function Home() {
                     </svg>
                   </div>
                   <h3>
-                    <a href="/features/feature-details/">Email Notifications</a>
+                    <a href="/features/feature-details/">Commitment to Quality</a>
                   </h3>
                   <p>
-                    Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
-                    incididunt ut labore dolore magna aliqua.
+                  Quality is ingrained in everything we do. We adhere to rigorous quality standards throughout the development lifecycle, ensuring that our solutions are robust, scalable, and maintainable in the long run.
                   </p>
         </div>
         <div class="single-features aos-init aos-animate" data-aos="fade-up" data-aos-delay="400" data-aos-duration="500" data-aos-once="true">
-        <div class="icon">
-                    <svg
+        <div class="icon bg-c679e3">
+        <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
@@ -639,21 +638,21 @@ function Home() {
                       stroke-linecap="round"
                       stroke-linejoin="round"
                     >
-                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                      <polyline points="22,6 12,13 2,6"></polyline>
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <line x1="12" y1="16" x2="12" y2="12"></line>
+                      <line x1="12" y1="8" x2="12.01" y2="8"></line>
                     </svg>
                   </div>
                   <h3>
-                    <a href="/features/feature-details/">Email Notifications</a>
+                    <a href="/features/feature-details/">Transparent Communication</a>
                   </h3>
                   <p>
-                    Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
-                    incididunt ut labore dolore magna aliqua.
+                  We believe in fostering open and transparent communication with our clients at every stage of the project. From initial discussions to regular progress updates and post-launch support, we keep our clients informed and involved every step of the way.
                   </p>
         </div>
         <div class="single-features aos-init aos-animate" data-aos="fade-up" data-aos-delay="600" data-aos-duration="500" data-aos-once="true">
-        <div class="icon">
-                    <svg
+        <div class="icon bg-eb6b3d">
+        <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
@@ -664,16 +663,15 @@ function Home() {
                       stroke-linecap="round"
                       stroke-linejoin="round"
                     >
-                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                      <polyline points="22,6 12,13 2,6"></polyline>
+                      <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                      <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
                     </svg>
                   </div>
                   <h3>
-                    <a href="/features/feature-details/">Email Notifications</a>
+                    <a href="/features/feature-details/">Global Reach, Local Presence</a>
                   </h3>
                   <p>
-                    Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
-                    incididunt ut labore dolore magna aliqua.
+                  While we have a global footprint with clients spanning across various industries and geographies, we maintain a strong local presence to better understand regional nuances and provide personalized support to our clients.
                   </p>
         </div>
     {/* </div> */}
