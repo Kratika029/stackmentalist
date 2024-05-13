@@ -2,7 +2,10 @@ import React from "react";
 import { Flex } from "antd";
 import logo from "../../public/logo.png";
 import "./Header.css";
+import { useNavigate } from "react-router-dom";
+
 function Header() {
+  let navigate = useNavigate();
   return (
     <>
       <header id="header" className="header-container">
@@ -39,12 +42,23 @@ function Header() {
           {/* <div class="collapse navbar-collapse" id="navbarSupportedContent"> */}
           <ul class="navbar">
             <li class="nav-item">
-              <a class="nav-link" href="/#">
+              <a class="nav-link" 
+              
+              // href=""
+              >
+                
                 Our Services{" "}
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/#">
+              <a class="nav-link" 
+              onClick={(e) =>{ 
+                e.preventDefault();
+                navigate("/about")
+            }
+              }
+              href=""
+              >
                 About Us{" "}
               </a>
             </li>

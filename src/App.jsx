@@ -1,18 +1,30 @@
-import { useState } from 'react'
 import Header from "./sharedComponents/Header"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css'
 import Home from "./pages/Home.jsx"
+import AboutUs from "./pages/AboutUs.jsx"
 import Footer from "./sharedComponents/Footer.jsx"
 function App() {
   return (
     <>
-      <Header/>
+    <Router>
+        <Header />
+
+        <Routes>
+          <Route exact path="/" element={< Home/>} />
+          <Route exact path="/about" element={<AboutUs />} />
+          {/* <Route exact path="/contact" element={<Contact />} /> */}
+          {/* <Route exact path="/ourservices" element={<Services />} /> */}
+        </Routes>
+
+        <Footer />
+      </Router>
+      {/* <Header/>
       <div style ={{ display : "flex" , justifyContent : "center"}}>
       <Home/>
       </div>
-      <Footer/>
-      {/* <h1>stackmentalist</h1> */}
-        
+      <Footer/> */}
+      
     </>
   )
 }
