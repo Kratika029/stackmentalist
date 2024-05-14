@@ -43,8 +43,11 @@ function Header() {
           <ul class="navbar">
             <li class="nav-item">
               <a class="nav-link" 
-              
-              // href=""
+              onClick={(e) =>{ 
+                e.preventDefault();
+                navigate("/ourservices")
+            }}
+              href=""
               >
                 
                 Our Services{" "}
