@@ -5,23 +5,12 @@ import "./Footer.css";
 function Footer() {
   return (
     <>
-      <footer class="footer-area bg-f7fafd">
-        <div class="container">
-          <div class="row">
-
-
-
-
-
-            <div
-              class="col-lg-3 col-md-6 aos-init aos-animate"
-              data-aos="fade-in"
-              data-aos-delay="100"
-              data-aos-duration="500"
-              data-aos-once="true"
-            >
-              <div class="single-footer-widget">
-                <div class="logo">
+      
+      <footer className="footer-area bg-f7fafd">
+        <div className="footer-container">
+          <div className="footer-top">
+            <div className="footer-col">
+                  <div className="logo">
                   <a href="/">
                     <img
                       alt="logo"
@@ -32,6 +21,7 @@ function Footer() {
                       data-nimg="1"
                       src={logo}
                     />
+                    </a>
                     <a
                       href="/"
                       style={{
@@ -42,53 +32,12 @@ function Footer() {
                     >
                       THE STACKMENTALIST
                     </a>
-                  </a>
-                </div>
-                <p>Great Innovations Ahead..!</p>
-              </div>
+                  
+                  </div>
+                  <p>Great Innovations Ahead..!</p>
             </div>
-
-              <div className="col1">
-<div class="logo" style={{display : "flex", flexDirection : "row"}}>
-                  <a href="/">
-                    <img
-                      alt="logo"
-                      loading="lazy"
-                      width="70"
-                      height="36"
-                      decoding="async"
-                      data-nimg="1"
-                      src={logo}
-                    />
-                    <a
-                      href="/"
-                      style={{
-                        color: "#1e1666",
-                        fontSize: "18px",
-                        textDecoration: "none",
-                      }}
-                    >
-                      THE STACKMENTALIST
-                    </a>
-                  </a>
-                </div>
-              </div>
-
-
-
-
-
-
-            
-            <div
-              class="col-lg-3 col-md-6 aos-init aos-animate"
-              data-aos="fade-in"
-              data-aos-delay="400"
-              data-aos-duration="500"
-              data-aos-once="true"
-            >
-              <div class="single-footer-widget">
-                <h3>Address</h3>
+            <div className="footer-col">
+            <h3>Address</h3>
                 <ul class="footer-contact-info">
                   <li>
                     <svg
@@ -123,7 +72,9 @@ function Footer() {
                       <polyline points="22,6 12,13 2,6"></polyline>
                     </svg>
                     Email:{" "}
-                    <a href="mailto:startp@gmail.com">work@stackmentalist.com</a>
+                    <a href="mailto:startp@gmail.com">
+                      work@stackmentalist.com
+                    </a>
                   </li>
                   <li>
                     <svg
@@ -239,20 +190,21 @@ function Footer() {
                     </a>
                   </li>
                 </ul>
-              </div>
             </div>
-            <div class="col-lg-12 col-md-12">
-              <div class="copyright-area">
+          </div>
+          <div className="footer-bottom">
+
+          <div class="copyright-area">
                 <p>
-                © StackMentalist Ventures Pvt. Ltd.
+                  © StackMentalist Ventures Pvt. Ltd.
                   {/* <a href="https://envytheme.com/" target="_blank">
                     EnvyTheme
                   </a> */}
                 </p>
               </div>
-            </div>
           </div>
         </div>
+
         <img
           alt="map"
           loading="lazy"
@@ -263,9 +215,6 @@ function Footer() {
           class="map"
           src={footer}
         />
-        <div class="shape1">
-          {/* <img alt="shape" loading="lazy" width="202" height="202" decoding="async" data-nimg="1" src="/images/shape1.png" style="color: transparent;"></div><div class="shape8 rotateme"><img alt="shape" loading="lazy" width="22" height="22" decoding="async" data-nimg="1" src="/images/shape2.svg" style="color: transparent;"> */}
-        </div>
       </footer>
     </>
   );
