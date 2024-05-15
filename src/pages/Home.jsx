@@ -12,6 +12,13 @@ import monitor from "../../public/Home/big-monitor.png"
 import creative from "../../public/Home/creative.png"
 import developer from "../../public/Home/developer.png"
 import flower from "../../public/Home/flower.png"
+import dot from "../../public/Home/dot.png"
+import flowertop from "../../public/Home/flower-top.png"
+import flowertopbig from "../../public/Home/flower-top-big.png"
+import pen from "../../public/Home/pen.png"
+import book from "../../public/Home/book.png"
+import teacup from "../../public/Home/tea-cup.png"
+import headphone from "../../public/Home/headphone.png"
 import smallMonitor from "../../public/Home/small-monitor.png"
 import table2 from "../../public/Home/table2.png"
 import circle from "../../public/Home/circle.png"
@@ -21,12 +28,12 @@ function Home() {
     <>
       <div style={{ display: "flex", flexDirection: "column" }}>
         <div className="main-banner">
-          <div className="d-table">
-            <div className="d-table-cell">
-              <div class="container">
-                <div class="row h-100 justify-content-center align-items-center">
-                  <div class="col-lg-5">
-                    <div class="hero-content">
+
+
+
+<div className="main-banner-row">
+  <div className="main-banner-col1">
+  <div class="hero-content">
                       <h1 class="aos-init aos-animate">
                         IT Management Service & Support for Your Business.
                       </h1>
@@ -36,10 +43,9 @@ function Home() {
                         deliver amazing software solutions.
                       </p>
                     </div>
-                  </div>
-                </div>
-                <div class="col-lg-6 offset-lg-1">
-                  <div class="banner-image">
+  </div>
+  <div className="main-banner-col2">
+  <div class="banner-image">
                     <img
                       src={man}
                       width="371"
@@ -64,25 +70,35 @@ function Home() {
                       height="112"
                       class="animate__animated animate__fadeInDown animate__delay-0.1s"
                     />
+                    <img alt="book" loading="lazy" width="78" height="74" decoding="async" data-nimg="1" class="animate__animated animate__bounceIn animate__delay-0.1s" src={book}/>
                     <img
                       src={desktop}
                       width="105"
                       height="147"
                       class="animate__animated animate__fadeInDown animate__delay-0.1s"
                     />
+                    <img alt="dot" loading="lazy" width="94" height="70" decoding="async" data-nimg="1" class="animate__animated animate__zoomIn animate__delay-0.1s"  src={dot}/>
+          
+          <img alt="flower-top-big" loading="lazy" width="78" height="291" decoding="async" data-nimg="1" class="animate__animated animate__fadeInUp animate__delay-0.1s"  src={flowertopbig}/>
+          <img alt="flower-top" loading="lazy" width="53" height="87" decoding="async" data-nimg="1" class="animate__animated animate__rotateIn animate__delay-0.1s"  src={flowertop}/>
                     <img
                       src={keyboard}
                       width="121"
                       height="73"
                       class="animate__animated animate__fadeInDown animate__delay-0.1s"
                     />
+                    <img alt="pen" loading="lazy" width="42" height="77" decoding="async" data-nimg="1" class="animate__animated animate__zoomIn animate__delay-0.1s" src={pen}/>
                     <img
                       src={table}
                       width="380"
                       height="342"
                       class="animate__animated animate__fadeInDown animate__delay-0.1s"
                     />
-
+                    <img alt="tea-cup" loading="lazy" width="44" height="104" decoding="async" data-nimg="1" class="animate__animated animate__fadeInLeft animate__delay-0.1s" src={teacup}/>
+          <img alt="headphone" loading="lazy" width="62" height="62" decoding="async" data-nimg="1" class="animate__animated animate__rollIn animate__delay-0.1" src={headphone}/>
+                    
+                    
+                    
                     {/* <img alt="man" loading="lazy" width="371" height="400" decoding="async" data-nimg="1" class="animate__animated animate__fadeInDown animate__delay-0.1s" style="color:transparent" src={man}/> */}
                     {/*<img alt="code" loading="lazy" width="174" height="111" decoding="async" data-nimg="1" class="animate__animated animate__fadeInUp animate__delay-0.1s" style="color:transparent" src="/_next/static/media/code.82d4b3f4.png">
           <img alt="carpet" loading="lazy" width="510" height="293" decoding="async" data-nimg="1" class="animate__animated animate__fadeInLeft animate__delay-0.1s" style="color:transparent" src="/_next/static/media/carpet.d8796c37.png">
@@ -100,10 +116,49 @@ function Home() {
           <img alt="headphone" loading="lazy" width="62" height="62" decoding="async" data-nimg="1" class="animate__animated animate__rollIn animate__delay-0.1" style="color:transparent" src="/_next/static/media/headphone.60a2794c.png">
           <img alt="main-pic" loading="lazy" width="580" height="560" decoding="async" data-nimg="1" class="animate__animated animate__fadeInUp animate__delay-0.1" style="color:transparent" src="/_next/static/media/main-pic.52b102d9.png"> */}
                   </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+          {/* <div className="d-table">
+            <div className="d-table-cell">
+              <div class="container">
+                <div class="row h-100 justify-content-center align-items-center">
+                  <div class="col-lg-5">
+                    <div class="hero-content">
+                      <h1 class="aos-init aos-animate">
+                        IT Management Service & Support for Your Business.
+                      </h1>
+                      <p class="aos-init aos-animate">
+                        Great Innovations Ahead..!
+                        <br />A company with a vision to innovate, build and
+                        deliver amazing software solutions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 offset-lg-1">
+                 
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
+
+
+
+
+
+
         </div>
         <div class="shape1">
           <img alt="shape" width="202" height="202" src={shape1} />
@@ -112,7 +167,151 @@ function Home() {
           <img alt="shape" width="22" height="22" src={shape2} />
         </div>
 
-        <div class="boxes-area">
+
+
+{/* ************************************************************************* */}
+<div className="boxes-area2">
+  <div className="box-col">
+  <div class="icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <rect
+                        x="2"
+                        y="2"
+                        width="20"
+                        height="8"
+                        rx="2"
+                        ry="2"
+                      ></rect>
+                      <rect
+                        x="2"
+                        y="14"
+                        width="20"
+                        height="8"
+                        rx="2"
+                        ry="2"
+                      ></rect>
+                      <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                      <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                    </svg>
+                  </div>
+                  <h3 >
+                    <a  >
+                      Software Development
+                    </a>
+                  </h3>
+                  <p>
+                    We provide expertise in full front to back programme
+                    delivery using Scrum, Lean, Agile and Hybrid methodologies.
+                    We establish processes and a structure for communication and
+                    implementation.
+                  </p>
+  </div>
+  <div className="box-col bg-f78acb">
+  <div class="icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="16 18 22 12 16 6"></polyline>
+                      <polyline points="8 6 2 12 8 18"></polyline>
+                    </svg>
+                  </div>
+                  <h3>
+                    <a href="/features/feature-details/">
+                      Resource Hiring & Outsourcing
+                    </a>
+                  </h3>
+                  <p>
+                    Technology expertise coupled with award-winning UX skills is
+                    what makes us the leading web development company in India -
+                    and helps us build world class websites and web
+                    applications.
+                  </p>
+  </div>
+  <div className="box-col bg-c679e3">
+  <div class="icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                      <circle cx="9" cy="7" r="4"></circle>
+                      <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                  </div>
+                  <h3>
+                    <a href="/features/feature-details/">
+                      PR & Brand Management
+                    </a>
+                  </h3>
+                  <p>
+                    SEO, SEM, PPC, SMO, Content marketing and social media
+                    networking, etc. comprise a perfect digital marketing
+                    strategy. We offer unique digital marketing solutions that'd
+                    load your inbox with inquiries.
+                  </p>
+  </div>
+  <div className="box-col bg-eb6b3d">
+  <div class="icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <line x1="6" y1="3" x2="6" y2="15"></line>
+                      <circle cx="18" cy="6" r="3"></circle>
+                      <circle cx="6" cy="18" r="3"></circle>
+                      <path d="M18 9a9 9 0 0 1-9 9"></path>
+                    </svg>
+                  </div>
+                  <h3>
+                    <a href="/features/feature-details/">
+                      Training & Placement
+                    </a>
+                  </h3>
+                  <p>
+                    Any part of a design that affects the user is UX design. At
+                    StackMentalist, we offer mobile UX design, UX design for
+                    SAAS, Product UX design for startups and more, while
+                    ensuring that the end user enjoys a great value-added
+                    experience.
+                  </p>
+  </div>
+</div>
+
+{/* ************************************************************************* */}
+        {/* <div class="boxes-area">
           <div class="container2">
             <div class="row2 justify-content-center">
               <div
@@ -155,8 +354,8 @@ function Home() {
                       <line x1="6" y1="18" x2="6.01" y2="18"></line>
                     </svg>
                   </div>
-                  <h3>
-                    <a href="/features/feature-details/">
+                  <h3 >
+                    <a  >
                       Software Development
                     </a>
                   </h3>
@@ -286,7 +485,7 @@ function Home() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* ************************************************************************* */}
 
@@ -295,10 +494,10 @@ function Home() {
             <div class="section-title">
               <h2>About Stackmentalist</h2>
               <div class="bar"></div>
-              <p>
+              {/* <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
+              </p> */}
             </div>
 
             <div className="row4">
@@ -558,11 +757,11 @@ function Home() {
               <div class="section-title">
                   <h2>Why we are different</h2>
                   <div class="bar"></div>
-                  <p>
+                  {/* <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua.
-                  </p>
+                  </p> */}
                 </div>
               {/* </div> */}
               <div className="points">
@@ -570,7 +769,20 @@ function Home() {
                 <div className="points-col1">
 
                 <div class="box2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>{" "}
+                <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <polyline points="16 18 22 12 16 6"></polyline>
+                        <polyline points="8 6 2 12 8 18"></polyline>
+                      </svg>{" "}
                 Innovative Approach
                     </div>
                     <div class="box2">

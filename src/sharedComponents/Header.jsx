@@ -1,27 +1,31 @@
-import React from "react";
-import { Flex } from "antd";
+
+import React, { useState, useEffect } from 'react';
 import logo from "../../public/logo.png";
 import "./Header.css";
 import { useNavigate } from "react-router-dom";
 
 function Header() {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    function handleScroll() {
+      if (window.scrollY > 100) { // Change this value to adjust when the header background changes
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   let navigate = useNavigate();
   return (
     <>
-      <header id="header" className="header-container">
-        {/* <Flex gap="middle" align="end" horizontal style = {{backgroundColor: "green" }}>
-        <div style = {{backgroundColor: "green" , padding : "0px 5px 0px 5px"}}> 
-        <Flex justify = "flex-start" gap="middle" horizontal >
-              <img src = {logo} width = "55px" height = "60px"/>
-           </Flex>
-           <Flex justify = "end" gap="middle" horizontal>
-            <h1>dhh</h1>
-            <ul>
-              <li>home</li>
-            </ul>
-           </Flex>
-        </div>
-        </Flex> */}
+      <header id="header" className={isScrolled ? 'header-scrolled' : 'header-container'}>
+        
         <div className="container">
           <div className="nav">
             <a href="" className="nav-brand">

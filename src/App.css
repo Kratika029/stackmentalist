@@ -1,6 +1,5 @@
 body{
-  /* position: relative; */
-    /* height: 910px; */
-    /* z-index: 1; */
+  
+    font-family: Arial, Helvetica, sans-serif;
     background: transparent url(/public/banner.jpg) 100% 0 no-repeat;
 }
