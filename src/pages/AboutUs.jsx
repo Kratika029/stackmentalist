@@ -17,7 +17,7 @@ function AboutUs() {
         </div>
         <div class="shape1"><img alt="shape" loading="lazy" width="202" height="202" decoding="async" data-nimg="1" src={shape1}/>
         </div>
-        <div class="shape2 rotateme"><img alt="shape" loading="lazy" width="22" height="22" decoding="async" data-nimg="1" src={shape2}/>
+        <div class="shape22 rotateme"><img alt="shape" loading="lazy" width="22" height="22" decoding="async" data-nimg="1" src={shape2}/>
         </div>
         <div class="shape3"><img alt="shape" loading="lazy" width="28" height="28" decoding="async" data-nimg="1" src={shape3}/>
         </div>
