@@ -29,7 +29,7 @@ function AboutUs() {
     <div className="about-area">
         <div className="container-about">
             <div className="col">
-                <img alt="image" loading="lazy" width="685" height="494" decoding="async" data-nimg="1" src={aboutus} />
+                <img  alt="image" loading="lazy" width="685" height="494" decoding="async" data-nimg="1" src={aboutus} />
             </div>
             <div className="col">
                 <div className="about-content">
@@ -39,10 +39,13 @@ function AboutUs() {
 
                         </div>
                     </div>
+                    <div className='pera-content'>
+                      <h4 style={{fontWeight: 100,fontSize: '25px',marginTop: '-2px'}}>"StackMentalist crafts high-quality, platform-independent software tailored to diverse business needs"</h4>
                     <p>StackMentalist is dedicated to crafting customer-oriented, platform-independent software. With extensive experience across diverse business domains and industry verticals, our proven delivery model ensures high-quality, cost-effective application development tailored to your business requirements.
               </p>
               <p>StackMentalist boasts global references affirming its commitment to software development excellence. Our seasoned professionals are adept with the latest development tools, having created numerous systems leveraging top-tier frontend and backend technologies.
               </p>
+              </div>
                               </div>
             </div>
         </div>

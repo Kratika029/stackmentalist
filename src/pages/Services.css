@@ -47,11 +47,72 @@
     justify-content: center;
     align-items: center;
 }
+
+.service-heading{
+    color: #83d09b;
+    margin-right: 373px;
+    margin-bottom: 5px;
+}
 .service-title h3{
     justify-content: center;
     text-align: center;
+   font-size: 20px;
 }
+/* .service-line{
+    width: 600px;
+    background-color: #23bdb8;
+    height: 2px;     
+    margin-bottom: -7px;
+} */
+
 .service-description{
     text-align: justify;
     align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px solid #23bdb8;
+    background-color: #73d6930a;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-name: MOVE-BG;
+    animation-direction: reverse;
+    border: 2px solid transparent; 
+    animation: border-animation 2s linear infinite;
+    box-shadow: 2px 10px 10px #94c8c7;
+    
 }
+
+.service-col .bar {
+    height: 5px;
+    width: 90px;
+    background: #cdf1d8;
+    margin: 20px auto;
+    position: relative;
+    border-radius: 30px;
+}
+.service-col .bar::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -2.7px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #44ce6f;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: MOVE-BG;
+}
+@keyframes border-animation {
+    0% {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #23bdb8;
+    }
+    100% {
+      border-color: transparent;
+    }
+  }

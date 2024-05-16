@@ -9,7 +9,12 @@ import service2 from "../../public/service2.png"
 import service3 from "../../public/service3.png"
 import service4 from "../../public/service4.png"
 import "./Services.css"
+
+
+
 function Services() {
+   
+    
   return (
     <>
      <div className="page-title">
@@ -35,8 +40,11 @@ function Services() {
                 </div>
             </div>
             <div className="service-col">
+               
                 <div className="service-title">
-                    <h3>Software Development</h3>
+                    <h3 className="service-title">Software Development</h3>
+                
+                <div className='bar'></div>
                 </div>
                 <div className="service-description">
                     <p>At Stackmentalist, we epitomize the convergence of innovation
@@ -48,26 +56,28 @@ function Services() {
                 bespoke products and services that offer comprehensive
                 communication and information solutions.
                 <br /> <br />
-                Our offerings span a wide spectrum, including web design and
-                development, custom applications, ERPs, CRMs, e-commerce
-                solutions, business-to-business and business-to-client
-                applications, as well as managed hosting and internet portal
-                management. Our global clientele attests to the quality and
-                satisfaction derived from our work. At Stackmentalist, our
-                business ethos revolves around ensuring the utmost quality in
-                our products, achieving complete client satisfaction, delivering
-                solutions punctually, and providing unparalleled value for our
-                clients. As pioneers in technological exploration, we are
-                dedicated to delivering top-notch software solutions
-                across the globe.
-                <br />
-                <br />
-                Stackmentalist's business philosophy is to assure the highest
-                quality product, total client satisfaction, timely delivery of
-                solutions and the best quality price ratio found in the
-                industry. As a leader in technology exploring , stackmentalist
-                is committed to deliver high quality software, across the globe
-              </p>
+          Our offerings span a wide spectrum, including web design and
+          development, custom applications, ERPs, CRMs, e-commerce
+          solutions, business-to-business and business-to-client
+          applications, as well as managed hosting and internet portal
+          management. Our global clientele attests to the quality and
+          satisfaction derived from our work. At Stackmentalist, our
+          business ethos revolves around ensuring the utmost quality in
+          our products, achieving complete client satisfaction, delivering
+          solutions punctually, and providing unparalleled value for our
+          clients. As pioneers in technological exploration, we are
+          dedicated to delivering top-notch software solutions
+          across the globe.
+          <br />
+          <br />
+          Stackmentalist's business philosophy is to assure the highest
+          quality product, total client satisfaction, timely delivery of
+          solutions and the best quality price ratio found in the
+          industry. As a leader in technology exploring, Stackmentalist
+          is committed to delivering high-quality software across the globe.
+        </p>
+    
+           
                 </div>
             </div>
         </div>
@@ -78,6 +88,7 @@ function Services() {
             <div className="service-col">
                 <div className="service-title">
                     <h3>Resource Hiring & Outsourcing</h3>
+                <div className='bar'></div>
                 </div>
                 <div className="service-description">
                     <p>
@@ -93,7 +104,7 @@ function Services() {
                 Harnessing advanced online and cloud-based technologies
                 alongside proven recruiting strategies, we deliver a blend of
                 high-tech and high-touch solutions tailored to
-                your business needs.              </p>
+                your business needs.              </p>
                 </div>
             </div>
             <div className="service-col">
@@ -113,6 +124,7 @@ function Services() {
             <div className="service-col">
                 <div className="service-title">
                     <h3>PR & Brand Management</h3>
+                    <div className='bar'></div>
                 </div>
                 <div className="service-description">
                     <p>
@@ -141,6 +153,7 @@ function Services() {
             <div className="service-col">
                 <div className="service-title">
                     <h3>Resource Hiring & Outsourcing</h3>
+                    <div className='bar'></div>
                 </div>
                 <div className="service-description">
                     <p>
@@ -156,7 +169,7 @@ function Services() {
                 Harnessing advanced online and cloud-based technologies
                 alongside proven recruiting strategies, we deliver a blend of
                 high-tech and high-touch solutions tailored to
-                your business needs.              </p>
+                your business needs.              </p>
                 </div>
             </div>
             <div className="service-col">
