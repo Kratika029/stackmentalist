@@ -7,7 +7,7 @@ header.header-container {
     height : 80px;
     background-color: transparent;
     display: flex;
-    padding-top: 15px;
+    padding-top: 10px;
     justify-content: center;
     align-items: center;
 }
@@ -25,16 +25,24 @@ header.header-container {
     align-items: center;
     box-shadow: 0 2px 28px 0 rgba(0, 0, 0, .06);
     background-color: #fff !important;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 .container {
     display: flex;
     flex-direction: row;
-    column-gap: 400px;
-    max-width: 1050px;
+    /* column-gap: 400px; */
+
+
+
+   
+    align-items: center;
+    column-gap: 190px;
+    /* justify-content: center; */
+    width : 100%;
+    /* max-width: 1050px; */
     /* display: block; */
-    justify-content: center;
+    /* justify-content: center; */
     padding-right: 25px;
     /* background-color: transparent; */
 }
@@ -56,6 +64,8 @@ img {
     display: flex;
     flex-direction: row;
     /* align-content: center; */
+    width : 50%;
+    margin-left : 8%;
     align-items: center;
     column-gap: 10px;
 }
@@ -73,34 +83,20 @@ img {
 li{
     text-decoration: none;
 }
-.navbar-nav {
-    display: flex;
-    flex-direction: row;
-    background-color: blanchedalmond;
-}
-.startp-nav nav .navbar-nav .nav-item {
-    position: relative;
-    padding: 15px 0;
-    background-color: blanchedalmond;
-    text-decoration: none;
-}
-.startp-nav nav .navbar-nav .nav-item a {
-    font-weight: 500;
-    font-size: 15px;
-    color: #4a6f8a;
-    padding: 0;
-    text-decoration: none;
-    margin-left: 14px;
+.
     margin-right: 14px;
 } */
 .navbar{
     display: flex;
     flex-direction: row;
     /* text-decoration: none; */
+    width : 50%;
+margin-left: 25%;
+    right : 8%;
     list-style-type: none;
     column-gap: 50px;
     align-items: center;
-    padding-right: 50px;
+    /* padding-right: 50px; */
     .nav-link{
         text-decoration: none;
         color: #4a6f8a;

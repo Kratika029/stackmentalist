@@ -88,7 +88,9 @@ a{
     padding-top: 80px;
     position: relative;
     z-index: 1;
-    /* width: 100%; */
+    width: 100%;
+    /* position: sticky; */
+    bottom: 0;
     margin-right: auto;
     margin-left: auto;
 }
@@ -97,7 +99,7 @@ a{
 }
 .footer-area .map {
     position: absolute;
-    top: 0;
+    /* top: 0; */
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -110,7 +112,6 @@ a{
 
     width : 100%;
     display: flex;
-    width: 100%;
     margin-right: auto;
     margin-left: auto;
     flex-direction: column;
@@ -141,8 +142,8 @@ a{
     margin-top: 80px;
     border-top: 1px solid #d8ebfd;
     text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    /* padding-top: 25px; */
+    /* padding-bottom: 25px; */
 }
 ul.social-links li {
     display: inline-block;

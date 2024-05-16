@@ -2,19 +2,12 @@ body{
    display : "flex" ;
     justify-content : "center";
     font-family: sans-serif;
+    /* background-color: brown; */
 
 }
 
 
-.container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    column-gap: 190px;
-    justify-content: center;
-    width : 100%;
-    
-}
+
 
 .main-banner {
     position: relative;

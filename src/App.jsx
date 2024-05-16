@@ -17,8 +17,11 @@ function App() {
           {/* <Route exact path="/contact" element={<Contact />} /> */}
           <Route exact path="/ourservices" element={<Services />} />
         </Routes>
-
+        {/* <div style={{bottom : "-20px"}}> */}
         <Footer />
+
+        {/* </div> */}
+        
       </Router>
       {/* <Header/>
       <div style ={{ display : "flex" , justifyContent : "center"}}>
