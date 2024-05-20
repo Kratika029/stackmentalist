@@ -216,7 +216,12 @@
         z-index: 1;
         text-align: center;
         border-radius: 20px;
+       filter: grayscale(1);
 }
+.card:hover{
+    filter: grayscale(0);
+}
+
 @media screen and (max-width: 768px) {
     .card {
         flex-basis: calc(50% - 40px);
@@ -233,6 +238,7 @@
         z-index: 1;
         padding-left: 35px;
         padding-right: 35px;
+        
 }
 .card .card-img img {
     border: 3px solid #cdf1d8;
@@ -242,6 +248,8 @@
     border-radius: 50%;
     display: inline-block !important;
     transition: .5s;
+    
+   
 }
 
 .card .card-info {
@@ -257,11 +265,7 @@
     margin: 25px 10px;
     transition: .5s;
 }
-.card .card-info:hover{
-    
-    border-radius: 6px;
 
-}
 .card .card-info h3{
     margin-bottom : 8px;
 }
@@ -270,7 +274,7 @@
 
 /* ************************************************** */
 /* shapes */
-.shape22 {
+.shape2 {
     top: 60%;
     left: 15%;
 }

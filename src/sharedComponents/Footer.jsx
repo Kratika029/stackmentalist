@@ -72,7 +72,7 @@ function Footer() {
                       <polyline points="22,6 12,13 2,6"></polyline>
                     </svg>
                     Email:{" "}
-                    <a href="mailto:startp@gmail.com">
+                    <a href="mailto:work@stackmentalist.com">
                       work@stackmentalist.com
                     </a>
                   </li>

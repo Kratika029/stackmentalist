@@ -69,6 +69,18 @@ function Header() {
                 About Us{" "}
               </a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" 
+              onClick={(e) =>{ 
+                e.preventDefault();
+                navigate("/contact")
+            }
+              }
+              href=""
+              >
+                Contact Us{" "}
+              </a>
+            </li>
           </ul>
           {/* </div> */}
         </div>
