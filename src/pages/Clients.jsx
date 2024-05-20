@@ -1,14 +1,8 @@
-// src/ClientLogoSwiper.js
-// import React from 'react';
-// import Slider from 'react-slick';
-// import 'slick-carousel/slick/slick.css';
-// import 'slick-carousel/slick/slick-theme.css';
+
 import partner1 from "../../public/partner-1.png"
-import partner1hover from "../../public/partner-hover1.png"
 import partner2 from "../../public/partner-2hover.png"
-import partner2hover from "../../public/partner-2.png"
 import partner3 from "../../public/partner-3hover.png"
-import partner3hover from "../../public/partner-3.png"
+import partner4 from "../../public/partner-4hover.png"
 import './Clients.css'; // Optional for additional styling
 import React from "react";
 import OwlCarousel from "react-owl-carousel";
@@ -21,7 +15,8 @@ export default function Clients({ hasBg }) {
     const images = [
         partner1,
         partner2,
-        partner3 // Repeat for continuous loop
+        partner3 ,
+        partner4// Repeat for continuous loop
       ];
     
       // Owl Carousel options
@@ -29,7 +24,7 @@ export default function Clients({ hasBg }) {
         items: 3, // Number of items to show
         loop: true, // Infinite loop
         autoplay: true, // Auto-play
-        autoplayTimeout: 3000, // Auto-play interval in milliseconds
+        autoplayTimeout: 1000, // Auto-play interval in milliseconds
         autoplayHoverPause: true, // Pause on hover
         nav: false, // Hide navigation buttons
         dots: false, // Hide dots navigation
