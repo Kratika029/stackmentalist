@@ -25,6 +25,18 @@ import circle from "../../public/Home/circle.png"
 import shape3 from "../../public/shapes/shape3.svg"
 import triangle from "../../public/shapes/triangle.svg"
 import shape5 from "../../public/shapes/shape5.png"
+import partner1 from "../../public/partner-1.png"
+import partner1hover from "../../public/partner-hover1.png"
+import partner2 from "../../public/partner-2hover.png"
+import partner2hover from "../../public/partner-2.png"
+
+
+import partner3 from "../../public/partner-3hover.png"
+import partner3hover from "../../public/partner-3.png"
+import partner4 from "../../public/partner-4hover.png"
+import partner4hover from "../../public/partner-4.png"
+// import partner5 from "../../public/partner-5hover.png"
+// import partner5hover from "../../public/partner-5.png"
 import "./Home.css";
 function Home() {
   return (
@@ -656,6 +668,71 @@ function Home() {
   </div>
 </div>
 
+
+<div style = {{display : "flex", flexDirection : "column ", justifyContent : "center", alignItems : "center"}}>
+  <h2>Our Client and Partners</h2>
+  <div >
+        
+
+
+        <div class="swiper swiper-initialized swiper-horizontal partner-slides swiper-backface-hidden">
+          <div class="swiper-wrapper" >
+           
+           
+             <div class="swiper-slide swiper-slide-prev" style={{width: "151.5px", marginRight: "30px"}}>
+              <div class="single-ml-partner">
+                <a href="#" target="_blank">
+                  <img src={partner1} alt="image"/>
+                  <img src={partner1hover} alt="image"/>
+                </a>
+              </div>
+            </div>
+            <div class="swiper-slide swiper-slide-active" style={{width: "151.5px", marginRight: "30px"}}>
+              <div class="single-ml-partner">
+                <a href="#" target="_blank">
+                  <img src={partner2hover} alt="image"/>
+                  <img src={partner2} alt="image"/>
+                </a>
+                </div>
+            </div>
+            <div class="swiper-slide swiper-slide-next" style={{width: "151.5px", marginRight: "30px"}}>
+              <div class="single-ml-partner">
+                <a href="#" target="_blank">
+                  <img src={partner3hover} alt="image"/>
+                  <img src={partner3} alt="image"/>
+                </a>
+                </div>
+                </div>
+                <div class="swiper-slide" style={{width: "151.5px", marginRight: "30px"}}>
+                <div class="single-ml-partner">
+                <a href="#" target="_blank">
+                <img src={partner4hover} alt="image"/>
+                <img src={partner4} alt="image"/>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide swiper-slide-prev" style={{width: "151.5px", marginRight: "30px"}}>
+              <div class="single-ml-partner">
+                <a href="#" target="_blank">
+                  <img src={partner1} alt="image"/>
+                  <img src={partner1hover} alt="image"/>
+                </a>
+              </div>
+            </div>
+            <div class="swiper-slide swiper-slide-active" style={{width: "151.5px", marginRight: "30px"}}>
+              <div class="single-ml-partner">
+                <a href="#" target="_blank">
+                  <img src={partner2hover} alt="image"/>
+                  <img src={partner2} alt="image"/>
+                </a>
+                </div>
+            </div>
+          
+        </div>
+       
+        </div>
+  </div>
+</div>
 
 
 
