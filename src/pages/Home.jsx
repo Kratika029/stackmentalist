@@ -25,18 +25,10 @@ import circle from "../../public/Home/circle.png"
 import shape3 from "../../public/shapes/shape3.svg"
 import triangle from "../../public/shapes/triangle.svg"
 import shape5 from "../../public/shapes/shape5.png"
-import partner1 from "../../public/partner-1.png"
-import partner1hover from "../../public/partner-hover1.png"
-import partner2 from "../../public/partner-2hover.png"
-import partner2hover from "../../public/partner-2.png"
+
+import Clients from "./Clients.jsx"
 
 
-import partner3 from "../../public/partner-3hover.png"
-import partner3hover from "../../public/partner-3.png"
-import partner4 from "../../public/partner-4hover.png"
-import partner4hover from "../../public/partner-4.png"
-// import partner5 from "../../public/partner-5hover.png"
-// import partner5hover from "../../public/partner-5.png"
 import "./Home.css";
 function Home() {
   return (
@@ -198,7 +190,7 @@ function Home() {
                     </svg>
                   </div>
                   <h3>
-                    <a href="/features/feature-details/">
+                    <a >
                       Resource Hiring & Outsourcing
                     </a>
                   </h3>
@@ -229,7 +221,7 @@ function Home() {
                     </svg>
                   </div>
                   <h3>
-                    <a href="/features/feature-details/">
+                    <a >
                       PR & Brand Management
                     </a>
                   </h3>
@@ -260,7 +252,7 @@ function Home() {
                     </svg>
                   </div>
                   <h3>
-                    <a href="/features/feature-details/">
+                    <a >
                       Training & Placement
                     </a>
                   </h3>
@@ -283,20 +275,14 @@ function Home() {
             <div class="section-title">
               <h2>About Stackmentalist</h2>
               <div class="bar"></div>
-              {/* <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p> */}
+             
             </div>
 
             <div className="row4">
               <div class="col-lg-66 col-md-66">
                 <div
-                  class="single-features aos-init aos-animate"
-                  data-aos="fade-up"
-                  data-aos-delay="100"
-                  data-aos-duration="500"
-                  data-aos-once="true"
+                  class="single-features "
+          
                 >
                   <div class="icon">
                     <svg
@@ -315,7 +301,7 @@ function Home() {
                     </svg>
                   </div>
                   <h3>
-                    <a href="/features/feature-details/">
+                    <a >
                       Innovation-driven Solutions
                     </a>
                   </h3>
@@ -353,7 +339,7 @@ function Home() {
                     </svg>
                   </div>
                   <h3>
-                    <a href="/features/feature-details/">
+                    <a >
                       Customer-Centric Approach
                     </a>
                   </h3>
@@ -366,11 +352,7 @@ function Home() {
                   </p>
                 </div>
                 <div
-                  class="single-features aos-init aos-animate"
-                  data-aos="fade-up"
-                  data-aos-delay="500"
-                  data-aos-duration="500"
-                  data-aos-once="true"
+                  class="single-features"
                 >
                   <div class="icon bg-eb6b3d">
                     <svg
@@ -390,7 +372,7 @@ function Home() {
                     </svg>
                   </div>
                   <h3>
-                    <a href="/features/feature-details/">Expert Team</a>
+                    <a >Expert Team</a>
                   </h3>
                   <p>
                     At StackMentalist, we pride ourselves on our team of experts
@@ -404,11 +386,8 @@ function Home() {
 
               <div class="col-lg-66 col-md-66">
                 <div
-                  class="single-features aos-init aos-animate"
-                  data-aos="fade-up"
-                  data-aos-delay="200"
-                  data-aos-duration="500"
-                  data-aos-once="true"
+                  class="single-features"
+                  
                 >
                   <div class="icon">
                     <svg
@@ -427,7 +406,7 @@ function Home() {
                     </svg>
                   </div>
                   <h3>
-                    <a href="/features/feature-details/">
+                    <a >
                       Commitment to Quality
                     </a>
                   </h3>
@@ -439,11 +418,7 @@ function Home() {
                   </p>
                 </div>
                 <div
-                  class="single-features aos-init aos-animate"
-                  data-aos="fade-up"
-                  data-aos-delay="400"
-                  data-aos-duration="500"
-                  data-aos-once="true"
+                  class="single-features "
                 >
                   <div class="icon bg-c679e3">
                     <svg
@@ -463,7 +438,7 @@ function Home() {
                     </svg>
                   </div>
                   <h3>
-                    <a href="/features/feature-details/">
+                    <a >
                       Transparent Communication
                     </a>
                   </h3>
@@ -476,11 +451,7 @@ function Home() {
                   </p>
                 </div>
                 <div
-                  class="single-features aos-init aos-animate"
-                  data-aos="fade-up"
-                  data-aos-delay="600"
-                  data-aos-duration="500"
-                  data-aos-once="true"
+                  class="single-features"
                 >
                   <div class="icon bg-eb6b3d">
                     <svg
@@ -499,7 +470,7 @@ function Home() {
                     </svg>
                   </div>
                   <h3>
-                    <a href="/features/feature-details/">
+                    <a >
                       Global Reach, Local Presence
                     </a>
                   </h3>
@@ -670,12 +641,12 @@ function Home() {
 
 
 <div style = {{display : "flex", flexDirection : "column ", justifyContent : "center", alignItems : "center"}}>
-  <h2>Our Client and Partners</h2>
-  <div >
+  <h2>Our Clients and Partners</h2>
+  <div style= {{marginTop : "20px", marginBottom : "60px"}}>
         
 
-
-        <div class="swiper swiper-initialized swiper-horizontal partner-slides swiper-backface-hidden">
+<Clients/>
+        {/* <div class="swiper swiper-initialized swiper-horizontal partner-slides swiper-backface-hidden">
           <div class="swiper-wrapper" >
            
            
@@ -730,7 +701,7 @@ function Home() {
           
         </div>
        
-        </div>
+        </div> */}
   </div>
 </div>
 

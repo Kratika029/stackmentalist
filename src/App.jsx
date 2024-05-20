@@ -3,6 +3,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css'
 import Home from "./pages/Home.jsx"
 import AboutUs from "./pages/AboutUs.jsx"
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
 import Footer from "./sharedComponents/Footer.jsx"
 import Services from "./pages/Services.jsx"
 function App() {
