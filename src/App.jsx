@@ -1,7 +1,7 @@
 import Header from "./sharedComponents/Header"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css'
-import Home from "./pages/Home.jsx"
+import Home from "./pages/Home2.jsx"
 import AboutUs from "./pages/AboutUs.jsx"
 import ContactUs from "./pages/ContactUs.jsx"
 import Footer from "./sharedComponents/Footer.jsx"

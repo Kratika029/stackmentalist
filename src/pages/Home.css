@@ -18,7 +18,18 @@ body{
     background: transparent url(/images/banner-bg1.jpg) 100% 0 no-repeat;
 }
 
-
+@media (max-width: 768px) {
+    .main-banner{
+        display: flex !important;
+        justify-content: center;
+    }
+    .main-banner-row{
+        width : 100%;
+        display: flex;
+        flex-direction: column;
+        padding : 70px 50px 0px 70px;
+    }
+}
 /* ************************************************************** */
 
 .main-banner-row{

@@ -51,7 +51,7 @@ function Home() {
                       </p>
                     </div>
   </div>
-  <div className="main-banner-col2">
+  {/* <div className="main-banner-col2">
   <div class="banner-image">
                     <img
                       src={man}
@@ -108,7 +108,7 @@ function Home() {
                     
                    
                   </div>
-  </div>
+  </div> */}
 </div>
 
 
